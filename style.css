@@ -167,7 +167,7 @@
 .banner {
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(images/watch.png);
     background-repeat: no-repeat;
-    
+
     background-size: cover;
     height: 300px;
     margin: 0 auto;
@@ -209,10 +209,80 @@
     border-radius: 5px;
 }
 
+.contact {
+    background: #3C5499;
+    padding: 110px 200px;
+    margin-top: 130px;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.contact-title p {
+    font-family: 'Work Sans';
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+
+.form {
+    max-width: 800px;
+    width: 100%;
+    
+    text-align: center;
+
+
+}
+
+.form .textarea {
+    font-family: 'Work Sans';
+    margin-top: 27px;
+    background: #273A71;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+input[type="text"], input[type="email"] {
+    font-family: 'Work Sans';
+    background: #273A71;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 20px;
+
+    color: #FFFFFF;
+}
+
+.btn-message {
+    background: #30BAE7;
+    font-weight: 600;
+    font-size: 18.0002px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 20px 80px;
+    margin-top: 60px;
+}
+
 
 
 /* footer section */
-.footer{
+.footer {
     background: #151414;
 
 }
@@ -231,9 +301,7 @@
     margin-right: auto;
 }
 
-.footer-title {
-    
-}
+.footer-title {}
 
 .footer-title h2 {
     font-family: 'Work Sans';
@@ -268,7 +336,7 @@
     gap: 20px;
 
     align-items: flex-start;
-    
+
 }
 
 .subscribe h2 {
