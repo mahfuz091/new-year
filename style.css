@@ -292,7 +292,7 @@ input[type="text"], input[type="email"] {
     color: #F8F8F8;
     margin-top: 130px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 330px;
     padding-top: 130px;
     padding-bottom: 130px;
