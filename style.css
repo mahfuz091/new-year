@@ -66,10 +66,6 @@
 
 }
 
-
-
-
-
 .hero-title {
     font-family: 'Work Sans';
     font-style: normal;
@@ -179,17 +175,13 @@
     align-items: flex-start;
     padding-left: 60px;
     border-radius: 8px;
-
-
 }
-
 .banner-title {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-
     color: #FFFFFF;
     margin-bottom: 17px;
 
@@ -203,25 +195,21 @@
     font-size: 20px;
     line-height: 23px;
     text-align: center;
-
     color: #F15B22;
     padding: 20px 30px;
     border-radius: 5px;
 }
-
 .contact {
     background: #3C5499;
     padding: 110px 200px;
     margin-top: 130px;
 }
-
 .contact-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 .contact-title h2 {
     font-family: 'Work Sans';
     font-style: normal;
@@ -231,7 +219,6 @@
     color: #FFFFFF;
     margin-bottom: 24px;
 }
-
 .contact-title p {
     font-family: 'Work Sans';
     font-size: 18px;
@@ -240,16 +227,17 @@
     color: #FFFFFF;
     margin-bottom: 70px;
 }
-
 .form {
     max-width: 800px;
     width: 100%;
-    
     text-align: center;
 
-
 }
-
+.form-input{
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+}
 .form .textarea {
     font-family: 'Work Sans';
     margin-top: 27px;
@@ -257,18 +245,17 @@
     color: #FFFFFF;
     font-size: 18px;
     line-height: 27px;
+    padding: 10px 18px;
 }
-
 input[type="text"], input[type="email"] {
     font-family: 'Work Sans';
     background: #273A71;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 20px;
-
     color: #FFFFFF;
+    gap: 30px;
 }
-
 .btn-message {
     background: #30BAE7;
     font-weight: 600;
@@ -279,14 +266,10 @@ input[type="text"], input[type="email"] {
     margin-top: 60px;
 }
 
-
-
 /* footer section */
 .footer {
     background: #151414;
-
 }
-
 .footer-container {
     display: flex;
     color: #F8F8F8;
@@ -300,9 +283,6 @@ input[type="text"], input[type="email"] {
     margin-left: auto;
     margin-right: auto;
 }
-
-.footer-title {}
-
 .footer-title h2 {
     font-family: 'Work Sans';
     font-style: normal;
@@ -311,7 +291,6 @@ input[type="text"], input[type="email"] {
     color: #F8F8F8;
     margin-bottom: 16px;
 }
-
 .footer-title p {
     font-family: 'Work Sans';
     font-style: normal;
@@ -321,7 +300,6 @@ input[type="text"], input[type="email"] {
     color: #FFFFFF;
     margin-bottom: 24px;
 }
-
 .icon {
     width: 47px;
     height: 46px;
@@ -329,16 +307,13 @@ input[type="text"], input[type="email"] {
     display: flex;
     gap: 17px;
 }
-
 .subscribe {
     display: flex;
     flex-direction: column;
     gap: 20px;
 
     align-items: flex-start;
-
 }
-
 .subscribe h2 {
     font-family: 'Work Sans';
     font-style: normal;
@@ -348,7 +323,6 @@ input[type="text"], input[type="email"] {
     color: #FFFFFF;
 
 }
-
 .subscribe input[type="email"] {
     background: #151414;
     color: #FFFFFF;
@@ -361,7 +335,6 @@ input[type="text"], input[type="email"] {
     border-radius: 10px;
 
 }
-
 .subscribe button {
     font-family: 'Inter';
     font-style: normal;
@@ -373,6 +346,4 @@ input[type="text"], input[type="email"] {
     width: 170px;
     height: 65px;
     border-radius: 10px;
-
-
 }
